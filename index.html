@@ -3,165 +3,341 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sprivaten</title>
-  <!-- font-familly -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>VISITA.l0</title>
+  <!-- Tailwind-Css -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/501b783417.js" crossorigin="anonymous"></script>
-  <!-- TAILWIND-CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font-family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Cabin:wght@500&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <header class="bg-[#baae7bfa]">
-    <nav class="py-6 px-6 flex realtive">
-      <div class="flex item-center ">
-        <span class="flex-1 mr-3 -mt-4 text-sky-800 text-2xl rotate-12 pt-5 "><i class="fa-solid fa-star"></i></span>
-        <h4 class="flex-1 text-xl text-sky-900 capitalize italic underline font-semibold font-['cursive mono']">
-          sprivaten</h4>
+  <header class="bg-cover bg-cover pb-[1rem] sm:pb-[2rem] md:pb-[3rem] lg:pb-[6rem]" style="background-image: url(d10.webp);">
+    <nav class="p-4 sm:p-6 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="logo.png" alt="" class="w-10 sm:w-12 h-10 sm:h-12">
+        <a href="App.HTML"
+          class="text-slate-100 font-semibold text-[0.875rem] sm:text-lg md:text-2xl uppercase ml-1 md:ml-3 underline">visita.l0</a>
       </div>
-      <div class="flex-1 absolute right-0">
-        <div class="hidden md:block">
-          <ul class="flex pt-1">
-            <li class="mr-5 text-normal text-lg text-slate-700"><a href="index.html">Home</a></li>
-            <li class="mr-5 text-normal text-lg text-slate-700"><a href="index.html">Products</a></li>
-            <li class="mr-5 text-normal text-lg text-slate-700"><a href="index.html">Pricing</a></li>
-            <li class="mr-12 text-normal text-lg text-slate-700"><a href="index.html">Contact</a></li>
-            <button class="mr-3 text-xl text-sky-800 mr-3"><i class="fa-solid fa-magnifying-glass"></i></button>
-            <button class="mr-5 text-xl text-sky-800"><i class="fa-solid fa-cart-shopping"></i></button>
-          </ul>
+      <ul class="hidden md:flex md:space-x-2 lg:space-x-8 ">
+        <li><a href="App.HTML" class="capitalize text-lg text-slate-200 tracking-wider">Solution</a></li>
+        <li><a href="App.HTML" class="capitalize text-lg text-slate-200 tracking-wider">visions</a></li>
+        <li><a href="App.HTML" class="capitalize text-lg text-slate-200 tracking-wider">program</a></li>
+        <li><a href="App.HTML" class="capitalize text-lg text-slate-200 tracking-wider">blog</a></li>
+      </ul>
+      <div class="flex  xl:space-x-4 items-center absoulte r-0 ">
+        <div class="mr-2 md:mr-4 ">
+          <a href="App.HTML" class="hidden sm:block capitalize md:text-lg text-slate-200 font-[Cabin] tracking-wide font-light">
+            <span class="cursor-pointer text-red-400 ">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            log in
+          </a>
         </div>
-        <div class="md:hidden block ">
-          <button class="mr-3 text-xl text-sky-800 mr-3"><i class="fa-solid fa-magnifying-glass"></i></button>
-          <button class="mr-5 text-xl text-sky-800"><i class="fa-solid fa-cart-shopping"></i></button>
-        </div>
+        <a href="App.HTML"
+          class="capitalize text-[0.65rem] md:text-lg text-slate-200 font-[Cabin] tracking-wide font-light border-2 border-slate-300 rounded py-1 px-1 md:px-2">get
+          started</a>
       </div>
     </nav>
-    <article class="mx-auto md:mx-0 w-full md:flex space-x-6 pt-[3rem] md:pt-[6rem] pb-[5rem] px-4 md:px-12 ">
-      <div class="mb-12 md:mb-0">
-        <img src="./img-2.png" alt=""
-          class="bg-cover bg-center w-[30rem] h-[300px] md:w-[20rem] md:h-[180px] lg:h-[430px] lg:w-[30rem] mx-auto md:mx-0  " />
-      </div>
-      <div class="text-start md:w-[34rem] sm:pb-12 md:mx-auto mx-auto">
-        <h2 class="text-xl sm:2xl md:text-3xl xl:text-5xl text-slate-800 pb-4 md:pb-12  leading-tight  ">Drive More
-          Customers
-          Through Digital </h2>
-        <p class="text-base md:text-xl text-slate-700 font-semibold w-[20rem] tracking-wide py-4 md:py-0">the other
-          hand, we denounce with
-          righteous indignation and dislike</p>
-        <div class="pt-4">
-          <button
-            class="bg-[#5a5242bd] text-lg text-slate-200 tracking-wide capitalize rounded-lg border border-[#5a5242bd] px-2 py-1 mb-3 mr-3 ">get
-            quote now</button>
-          <button
-            class="bg-[#988954c9] text-lg text-slate-200 tracking-wide capitalize rounded-lg border-[2px] border-[#1e2c5ed4] px-2 py-1">learn
-            more</button>
-        </div>
-      </div>
-      <form name="register" class="md:mx-0 mt-6 sm:-mt-4 md:mt-2 sm:px-4 md:px-1 ">
-        <div class="bg-white p-3 rounded-lg grid grid-clos-1 mx-auto sm:mx-0  ">
-          <p class="text-center text-slate-800 font-medium tracking-wide mb-6">book apointement</p>
-          <label id="text" for="name" class="text-red-800 text-base  font-semibold tracking-wide capitalize">name*</label>
-          <input type="text" placeholder="full name"
-            class=" py-1 px-2 mb-4 bg-transparent tracking-wide border-2 border-sky-800 rounded-lg " />
-          <label id="email" for="email" class="text-red-800 text-base font-semibold tracking-wide capitalize">email*</label>
-          <input type="email" placeholder="Exomple@gmail.com"
-            class="py-1 px-2 mb-4 bg-transparent tracking-wide border-2 border-sky-800 rounded-lg" />
-          <label id="text" for="select" class="text-red-800 text-base font-semibold tracking-wide capitalize">desertement</label>
-          <select name="languages" 
-            class="py-1 px-2 mb-4 bg-transparent tracking-wide border-2 border-sky-800 rounded-lg w-[100%]">
-            <option class="capitalize bg-[#baae7bfa] " value="frensh">Frensh</option>
-            <option class="capitalize bg-[#baae7bfa] " value="arabic">Arabic</option>
-          </select>
-          <button class="bg-[#baae7bfa] rounded py-1 px-2 font-normal text-white mt-5 text-center w-[100%] ">take
-            apointement</button>
-        </div>
-      </form>
+    <article class="py-12 text-white px-6 md:px-12  ">
+      <h1
+        class="text-white text-capitalize md:font-semibold font-[Cabin] tracking-wider text-3xl sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] leading-tight w-[65vw] md:w-[550px]">
+        The New Standardin Data Analysis</h1>
+      <h3 class="capitalize text-slate-200 text-base sm:text-xl md:text-2xl tracking-wide pt-6">Use Data to Get a
+        360-Degree View of Your
+        Business</h3>
+      <button
+        class="rounded border-2 border-red-400 py-1 md:py-2 px-2 md:px-4 md:text-xl bg-red-400 items-center font-medium text-slate-900 mt-6 md:mt-8 lg:mt-12">
+        Learn More
+      </button>
     </article>
   </header>
-  <main class="bg-[F6F6F6] py-[4rem]">
-    <div class="realtive mx-auto text-center pb-12">
-      <img src="./Polygon 1.png" alt="" class="bg-cover bg-center mx-auto ">
-      <h3 class="-mt-12 text-3xl text-red-950 font-semibold capitalize tracking-wider ">why choose us</h3>
-      <p class="pt-8 px-14 text-xl md:text-3xl text-slate-800  md:w-[500px] font-light tracking-wide mx-auto ">search
-        for lorem ipsum'will
-        uncover many web sites still in their infancy.</p>
-    </div>
-    <section class="px-6 py-4 ]">
-      <div class="md:w-[740px] lg:w-[80%] xl:w-[60%] mx-auto  md:flex md:space-x-6 item-center">
-        <div
-          class="border-2 border-slate-500 rounded lg:w-[20rem] xl:w-[15rem] mx-auto md:mx-0  shadow-lg mb-6 md:mb-0  ">
-          <div class="flex space-x-2 bg-sky-200 p-3 ">
-            <span class="text-3xl text-slate-700 mr-2"><i class="fa-solid fa-calendar-days"></i></span>
-            <p class="text-lg text-slate-800 font-semibold capitalize">web development</p>
-          </div>
-          <ul class="p-3 ">
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• Lorem Ipsum is simply dummy</li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• Lorem Ipsum is simply </li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• unknown printer took a galley
-            </li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• versions of Lorem Ipsum</li>
-          </ul>
-          <button class="text-orange-800 hover:text-orange-700 font-medium uppercase tracking-wider ml-4 pb-3">Read
-            More</button>
+  <main class="bg-[#08080af2]  pb-12">
+    <section
+      class="md:h-[80vh] lg:h-[85vh] xl:h-[100vh] w-[90vw] mx-auto border border-slate-300 md:flex justify-content lg:px-8 xl:px-12">
+      <div class="w-full  md:border-r border-slate-300 grid items-center px-6 sm:px-16 md:px-0 bg-cover bg-center"
+        style="background-image: url(d12.webp);">
+        <h1
+          class="text-center xl:text-start text-lg sm:text-3xl md:text-xl xl:text-4xl text-slate-200 font-[Cabin] p-4 md:p-2 lg:p-8 tracking-wide">
+          Let Your Data Take Your Business to Higher
+          Grounds</h1>
+        <p class="text-center xl:text-start text-slate-200 xl:text-lg tracking-wide p-4 md:py-0 lg:p-8 font-tight ">I'm
+          a paragraph. Click here to add your own text
+          and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to
+          the font.</p>
+      </div>
+      <div class="block md:flex justify-between md:space-x-2 xl:space-x-12 py-12 md:py-0 md:px-6 pl-0 xl:pl-6 ">
+        <div class="md:mt-[2rem]  xl:mt-[3rem] ">
+          <!-- article-1 -->
+          <article
+            class="bg-[#1E1D1F] rounded-xl shadow-md w-[70vw] sm:w-[310px] md:w-[220px] xl:w-[300px] p-4 sm:p-8 md:p-4  mb-8 xl:mb-8 mx-auto md:mx-0">
+            <span class="text-red-400 text-4xl md:text-2xl xl:text-3xl "><i class="fa-solid fa-users"></i></span>
+            <h3 class="text-[#4A6380] text-2xl sm:text-3xl md:text-xl xl:text-3xl py-4 sm:py-10 md:py-4 xl:py-6 font-[Cabin]">Cloud
+              Analytics Modernization</h3>
+            <p class="xl:font-[Cabin] text-slate-300 xl:text-lg pb-4 xl:pb-6">
+              I'm a paragraph. Click here to add your own text and
+              edit me. Let your users get to know you.</p>
+            <div class="h-[2px] w-[100%] bg-slate-300 "></div>
+          </article>
+          <!-- article-2 -->
+          <article
+            class="bg-[#1E1D1F] rounded-xl shadow-md w-[70vw] sm:w-[310px] md:w-[220px] xl:w-[300px] p-4 sm:p-8 md:p-4  mb-8 xl:mb-0 mx-auto md:mx-0">
+            <span class="text-red-400 text-4xl md:text-2xl xl:text-3xl "><i class="fa-brands fa-dropbox"></i></span>
+            <h3 class="text-[#4A6380] text-2xl sm:text-3xl md:text-xl xl:text-3xl py-4 sm:py-10 md:py-4 xl:py-6 font-[Cabin]">Versatility
+              in Application</h3>
+            <p class="xl:font-[Cabin] text-slate-300 xl:text-lg pb-4 xl:pb-6">
+              I'm a paragraph. Click here to add your own text and
+              edit me. Let your users get to know you.</p>
+            <div class="h-[2px] w-[100%] bg-slate-300"></div>
+          </article>
         </div>
-        <!-- /end of the item 1-->
-        <div
-          class="border-2 border-slate-800 rounded lg:w-[20rem] xl:w-[15rem] mx-auto md:mx-0  shadow-lg mb-6 md:mb-0 ">
-          <div class="flex space-x-2 bg-sky-200 p-3 ">
-            <span class="text-3xl text-pink-700 mr-2"><i class="fa-solid fa-award"></i></span>
-            <p class="text-lg text-slate-800 font-semibold capitalize">web development</p>
-          </div>
-          <ul class="p-3 ">
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• Lorem Ipsum is simply dummy</li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• Lorem Ipsum is simply </li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• unknown printer took a galley
-            </li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• versions of Lorem Ipsum</li>
-          </ul>
-          <button class="text-orange-800 hover:text-orange-700 font-medium uppercase tracking-wider ml-4 pb-3">Read
-            More</button>
+        <div class="md:-mt-[2rem] xl:-mt-[3rem]">
+          <!-- article-3 -->
+          <article
+            class="bg-[#1E1D1F] rounded-xl shadow-md w-[70vw] sm:w-[310px] md:w-[220px] xl:w-[300px] p-4 sm:p-8 md:p-4  mb-8 xl:mb-8 mx-auto md:mx-0 ">
+            <span class="text-red-400 text-4xl md:text-2xl xl:text-3xl "><i class="fa-solid fa-folder-open"></i></span>
+            <h3 class="text-[#4A6380] text-2xl sm:text-3xl md:text-xl xl:text-3xl py-4 sm:py-10 md:py-4 xl:py-6 font-[Cabin]">Data Science
+              Acceleration</h3>
+            <p class="xl:font-[Cabin] text-slate-300 xl:text-lg pb-4 xl:pb-6">
+              I'm a paragraph. Click here to add your own text and
+              edit me. Let your users get to know you.</p>
+            <div class="h-[2px] w-[100%] bg-slate-300"></div>
+          </article>
+          <!-- article-4 -->
+          <article
+            class="bg-[#1E1D1F] rounded-xl shadow-md w-[70vw] sm:w-[310px] md:w-[220px] xl:w-[300px] p-4 sm:p-8 md:p-4   mx-auto md:mx-0">
+            <span class="text-red-400 text-4xl md:text-2xl xl:text-3xl "><i
+                class="fa-solid fa-cloud-arrow-down"></i></span>
+            <h3 class="text-[#4A6380] text-2xl sm:text-3xl md:text-xl xl:text-3xl py-4 sm:py-10 md:py-4 xl:py-6 font-[Cabin]">Full Customer
+              Experience Service</h3>
+            <p class="xl:font-[Cabin] text-slate-300 xl:text-lg pb-4 xl:pb-6">
+              I'm a paragraph. Click here to add your own text and
+              edit me. Let your users get to know you.</p>
+            <div class="h-[2px] w-[100%] bg-slate-300"></div>
+          </article>
         </div>
-        <!-- /end of the item 2-->
-        <div class="border-2 border-slate-500 rounded lg:w-[20rem] xl:w-[15rem]   mx-auto md:mx-0  shadow-lg ">
-          <div class="flex space-x-2 bg-sky-200 p-3 ">
-            <span class="text-3xl text-slate-700 mr-2"><i class="fa-solid fa-address-card"></i></span>
-            <p class="text-lg text-slate-800 font-semibold capitalize">web development</p>
-          </div>
-          <ul class="p-3 ">
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• Lorem Ipsum is simply dummy</li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• Lorem Ipsum is simply </li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• unknown printer took a galley
-            </li>
-            <li class="text-slate-500 font-normal mb-3 ml-2 leading-tight capitalize">• versions of Lorem Ipsum</li>
-          </ul>
-          <button class="text-orange-800 hover:text-orange-700 font-medium uppercase tracking-wider ml-4 pb-3">Read
-            More</button>
-        </div>
-        <!-- /end of the item 3-->
       </div>
     </section>
-    <section class="px-6 py-12 md:py-[7rem]">
-      <div class="pb-3">
-        <img src="./Untitled.png" alt="" class="bg-cover bg-center mx-auto">
+    <section
+      class="mt-[10rem] md:mt-[15rem] md:mb-[5rem] w-[90vw] mx-auto border border-slate-300 md:flex justify-content  md:px-8 xl:px-12">
+      <div
+        class="w-full md:w-[450px] xl:w-[550px] h-48 md:h-auto md:border-r border-slate-300 grid items-center bg-cover bg-center "
+        style="background-image: url(d100.webp);">
         <p
-          class="-mt-[5rem] pl-[3rem] text-center item-center tracking-wide text-base sm:text-xl md:text-[25px] font-bold capitalize text-slate-600 pt-3 md:pt-0">
-          we are providing best <br /> business service</p>
+          class="text-center xl:text-start text-lg sm:text-[2.25rem] md:text-[2rem] xl:text-[2.5rem] leading-tight text-slate-200 font-[Cabin] p-2 md:p-4 xl:p-10 px-12 md:px-0 tracking-wide md:tracking-wider">
+          Unprecedented Velocity.
+          Impeccable
+          Reliability.</p>
       </div>
-      <h4
-        class="text-center text-slate-500 font-light font-[sans-serif] text-base sm:text-xl md:text-lg leading-lg py-14 md:w-[35rem] sm:px-6 mx-auto">
-        Lorem Ipsum is that it has a more-or-less normal distribution of letters,web page editors now use Lorem Ipsum
-      </h4>
+      <div class="px-4 md:px-6 xl:px-12 p-2 py-6 md:py-4 xl:py-8 md:w-[450px] xl:w-[550px]">
+        <p class="text-base xl:text-lg text-slate-300 pb-4 xl:pb-8 tracking-wide">
+          I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+          click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like
+          on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+          ​
+          This is a great space to write a long text about your company and your services. You can use this space to go
+          into a little more detail about your company. Talk about your team and what services you provide. Tell your
+          visitors the story of how you came up with the idea for your business and what makes you different from your
+          competitors. Make your company stand out and show your visitors who you are.
+        </p>
+        <button
+          class="rounded border-2 border-red-400 py-1 md:py-2 px-2 md:px-4  md:text-xl bg-red-400 items-center font-medium text-slate-900 mt-2 md:mt-6">
+          Learn More
+        </button>
+      </div>
+    </section>
+    <section class="lg:w-[90vw] mx-auto py-6 md:py-12 px-2 sm:px-6 md:px-12 text-center">
+      <h1
+        class="text-[1.15rem] sm:text-[1.75rem] md:text-[2.25rem] lg:text-[2.85rem] text-center text-slate-200 font-medium font-[Cabin] tracking-wider capitalize pb-6">
+        We
+        Take Pride in Our Numbers</h1>
+      <div class="flex space-x-1 sm:space-x-2 md:space-x-4 pb-6 md:pb-12 w-[85vw] sm:w-[80vw] md:w-full mx-auto">
+        <div>
+          <h1
+            class="text-[1rem] sm:text-[2rem] md:text-[3rem] xl:text-[4rem] text-red-400 font-[Acme] font-medium text-center uppercase pb-0">
+            15</h1>
+          <p class="text-[0.5rem] sm:text-[0.75rem] md:text-xl xl:text-2xl text-slate-300 capitalize pb-3  font-[Cabin] tracking-wide">
+            Years of Experience</p>
+          <div class="h-[2px] bg-slate-300"></div>
+        </div>
+        <!-- end of the item -->
+        <div>
+          <h1
+            class="text-[1rem] sm:text-[2rem] md:text-[3rem] xl:text-[4rem] text-red-400 font-[Acme] font-medium text-center uppercase pb-0">
+            10K</h1>
+          <p class="text-[0.5rem] sm:text-[0.75rem] md:text-xl xl:text-2xl  text-slate-300 capitalize pb-3 font-[Cabin] tracking-wide">
+            Busines Partners</p>
+          <div class="h-[2px] bg-slate-300"></div>
+        </div>
+        <!-- end of the item -->
+        <div>
+          <h1
+            class="text-[1rem] sm:text-[2rem] md:text-[3rem] xl:text-[4rem] text-red-400 font-[Acme] font-medium text-center uppercase pb-0">
+            24M</h1>
+          <p class="text-[0.5rem] sm:text-[0.75rem] md:text-xl xl:text-2xl  text-slate-300 capitalize pb-3 font-[Cabin] tracking-wide">
+            Products Installed</p>
+          <div class="h-[2px] bg-slate-300"></div>
+        </div>
+        <!-- end of the item -->
+        <div>
+          <h1
+            class="text-[1rem] sm:text-[2rem] md:text-[3rem] xl:text-[4rem] text-red-400 font-[Acme] font-medium text-center uppercase pb-0">
+            22</h1>
+          <p class="text-[0.5rem] sm:text-[0.75rem] md:text-xl xl:text-2xl  text-slate-300 capitalize pb-3 font-[Cabin] tracking-wide">
+            Coutries World Wide</p>
+          <div class="h-[2px] bg-slate-300"></div>
+        </div>
+        <!-- end of the item -->
+        <div>
+          <h1
+            class="text-[1rem] sm:text-[2rem] md:text-[3rem] xl:text-[4rem] text-red-400 font-[Acme] font-medium text-center pb-0">
+            5</h1>
+          <p class="text-[0.5rem] sm:text-[0.75rem] md:text-xl xl:text-2xl  text-slate-300 capitalize pb-3 font-[Cabin] tracking-wide">
+            Industry Awards</p>
+          <div class="h-[2px] bg-slate-300"></div>
+        </div>
+        <!-- end of the item -->
+      </div>
+    </section>
+    <section>
       <div>
-        <img src="./Rectangle 12.png" alt="" class="bg-cover bg-center mx-auto " />
-        <p
-          class="text-slate-700 text-center font-base tracking-wide uppercase text-base md:text-xl -mt-10 sm:-mt md:-mt-16">
-          injected humour and the
-          like</p>
+        <img src="d11.webp" alt="" class="md:h-[300px] w-full bg-cover bg-center">
+      </div>
+    </section>
+    <section class="w-[90vw] mx-auto  border border-slate-300">
+      <div class="flex justify-content">
+        <div class=" hidden lg:block p-8 md:border-r border-slate-300 mx-auto lg:mx-0">
+          <h1 class="text-3xl text-slate-200 text-center tracking-wide ">Our Partners</h1>
+        </div>
+        <!-- end of article-1 -->
+        <a href="App.HTML" class="hidden lg:block p-8 border-r border-slate-300">
+          <img src="Untitled-1.png" alt="" class="bg-cover bg-center w-[35rem]" />
+        </a>
+        <!-- end of article-2 -->
+        <a href="App.HTML" class="hidden lg:block p-8 border-r border-slate-300">
+          <img src="Untitled-2.png" alt="" class="bg-cover bg-center w-[35rem]" />
+        </a>
+        <!-- end of article-3 -->
+        <a href="App.HTML" class="hidden lg:block p-8 border-r border-slate-300">
+          <img src="Untitled-3.png" alt="" class="bg-cover bg-center w-[35rem]" />
+        </a>
+        <!-- end of article-4 -->
+        <a href="App.HTML" class="hidden lg:block p-8">
+          <img src="Untitled-4.png" alt="" class="bg-cover bg-center w-[35rem]" />
+        </a>
+        <!-- end of article-5 -->
+      </div>
+      <div class="lg:border-t border-slate-300 md:flex justify-content">
+        <div class="h-[45vh] md:h-auto bg-cover bg-center md:border-r border-slate-300 "
+          style="background-image: url(luis.jpg);">
+          <h1
+            class="text-[1.875rem] md:text-[2.25rem] xl:text-[2.735rem] leading-tight text-slate-200 font-[Cabin] py-10 px-8 tracking-wide sm:px-12 md:px-auto">
+            Are You Ready to
+            Accelerate Your Business?</h1>
+        </div>
+        <div class="px-4 md:px-8 xl:px-12 py-8 sm:w-[80vw] md:w-[450px] xl:w-[550px]">
+          <p class="text-lg text-slate-300 pb-8 tracking-wide">I'm a paragraph. Click here to add your own text and edit
+            me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the
+            font.</p>
+          <button
+            class="rounded border-2 border-red-400 py-1 md:py-2 px-2 md:px-4  md:text-xl bg-red-400 items-center font-medium text-slate-900 mt-2 md:mt-6">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="lg:hidden mt-8 md:mt-12 px-1 sm:px-8">
+      <div class="flex border w-[90vw]  md:w-[65vw] mx-auto text-center ">
+        <div class="p-1 sm:p-2 border-r border-slate-300 mx-auto md:mx-0">
+          <h1 class="sm:text-lg text-slate-200 text-center tracking-wide pt-1 sm:pt-2 ">Our Partners</h1>
+        </div>
+        <!-- end of article-1 -->
+        <a href="App.HTML" class=" p-1 sm:p-2 border-r border-slate-300 pt-3 sm:pt-0">
+          <img src="Untitled-1.png" alt="" class="" />
+        </a>
+        <!-- end of article-2 -->
+        <a href="App.HTML" class=" p-1 sm:p-2 border-r border-slate-300 pt-3 sm:pt-0">
+          <img src="Untitled-2.png" alt="" class="" />
+        </a>
+        <!-- end of article-3 -->
+        <a href="App.HTML" class=" p-1 sm:p-2 border-r border-slate-300 pt-3 sm:pt-0">
+          <img src="Untitled-3.png" alt="" class="" />
+        </a>
+        <!-- end of article-4 -->
+        <a href="App.HTML" class=" p-1 sm:p-2 pt-3 sm:pt-0">
+          <img src="Untitled-4.png" alt="" class="" />
+        </a>
+        <!-- end of article-5 -->
       </div>
     </section>
   </main>
+  <footer class="bg-[#08080af2] pt-[2rem] sm:pt-[6rem] lg:pt-[10rem] pb-[3rem]">
+    <div class="lg:flex justify-between w-[90vw] md:w-[80vw] lg:w-[70vw] mx-auto  border border-slate-300 text-white p-4 sm:p-6 lg:p-8 xl:p-12">
+      <div class=" sm:grid lg:block sm:justify-between items-center text-center pb-6 sm:pb-0">
+        <div class="flex items-start pb-3">
+          <img src="logo.png" alt="" class="w-12 h-12">
+          <a href="App.HTML"
+            class="text-slate-100 font-semibold md:text-2xl uppercase ml-1 md:ml-3 underline">visita.l0</a>
+        </div>
+        <div class="grid grid-cols-2 gap-x-14 sm:gap-x-28 md:gap-x-32 lg:gap-x-12">
+          <ul class="lg:pt-6 text-start">
+            <li class="text-[0.685rem] sm:text-[0.85rem] lg:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-3">123-456-7890
+            </li>
+            <li class="text-[0.685rem] sm:text-[0.85rem] lg:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-3">
+              Info@mysite.com</li>
+            <li class="text-[0.685rem] sm:text-[0.85rem] lg:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-3">500 Terry
+              Francine St</li>
+            <li class="text-[0.685rem] sm:text-[0.85rem] lg:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-3">San
+              Francisco, CA 94158</li>
+          </ul>
+          <ul class="pb-[2rem] lg:pb-[5rem] text-start">
+            <li class="text-[0.685rem] sm:text-[0.85rem] lg:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-3"><a
+                href="">Solutions</a></li>
+            <li class="text-[0.685rem] sm:text-[0.85rem] lg:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-3"><a
+                href="">VISIONS</a></li>
+            <li class="text-[0.685rem] sm:text-[0.85rem] lg:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-3"><a
+                href="">PROGRAMS</a></li>
+            <li class="text-[0.685rem] sm:text-[0.85rem] lg:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-3"><a
+                href="">BLOG</a></li>
+            <button
+              class="rounded border-2 border-red-400 py-1 lg:py-2 px-2 lg:px-4 text-[0.65rem] sm:text-base lg:text-xl bg-red-400 items-center font-medium text-slate-900  ">
+              Get Started
+            </button>
+          </ul>
+        </div>
+      </div>
+
+      <form class="grid grid-cols-1 w-[300px]">
+        <p class="text-[0.75rem] ms:text-lg text-slate-200 tracking-wide font-tight font-[Cabin] pb-2">Subscribe to Our Newsletter</p>
+        <label for="email"
+          class="text-[0.75rem] sm:text-base text-slate-200 tracking-wide font-tight font-[Cabin] uppercase">email</label>
+        <input type="email" name="" id="" placeholder="Your Email"
+          class="bg-slate-200 rounded pl-4 capitalize w-[60vw] sm:w-auto lg:w-[15rem] py-1 lg:py-2 text-slate-900 tracking-wide">
+        <button
+          class="rounded border-2 border-slate-400 w-[30vw] lg:w-[15rem] h-[2.25rem] lg:h-[3rem]  items-center  lg:text-xl items-center font-medium text-slate-200 mt-3 hover:text-red-400 hover:border-red-400 ">
+          Submit
+        </button>
+        <p class="text-slate-200 text-[0.75rem] md:text-lg lg:text-xl py-2 mt-[3rem] lg:mt-0 w-[60vw] sm:w-auto  ">
+          © 2035 by <a href="" class="underline">Vista.io </a>. Powered and secured by
+          <a href="" class="underline">Wix</a>
+        </p>
+        <div class="lg:pt-4  ">
+          <a href="App.HTML" class="text-3xl text-slate-200 hover:text-slate-300 "><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="App.HTML" class="text-3xl text-slate-200 mx-2 hover:text-slate-300 "><i
+              class="fa-brands fa-twitter"></i></a>
+          <a href="App.HTML" class="text-3xl text-slate-200 mx-2 hover:text-slate-300 "><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="App.HTML" class="text-3xl text-slate-200  hover:text-slate-300 "><i
+              class="fa-brands fa-github"></i></a>
+        </div>
+      </form>
+    </div>
+  </footer>
 </body>
 
 </html>
